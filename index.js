@@ -1,1 +1,6 @@
-$(function(){var e=require("typewriter"),r=document.getElementById("typewriter"),t=e(r).withAccuracy(95).withMinimumSpeed(10).withMaximumSpeed(20).build();t.clear().type("À procura de um desenvolvedor experiente?").put("<br/>").waitRange(100,800).type("Conheça meu ").put("<a href='https://br.linkedin.com/in/brunoavpinheiro'>LinkedIn</a>").waitRange(100,800).type(", se preferir me envie um email para ").put("<a href='mailto:contato@brunoavpinheiro.com.br'>contato@brunoavpinheiro.com.br</a>").wait(2e3).put("<br/>").type("Aguardo seu contato!")});
+$(function() {
+    var e = require("typewriter"),
+        r = document.getElementById("typewriter"),
+        t = e(r).withAccuracy(95).withMinimumSpeed(10).withMaximumSpeed(20).build();
+    t.clear().type("Passionate with Clean Code, Agile, RPi, Arduino and some IOT stuffs. Bad Software its like a lie, one time she comes comes up.").waitRange(100, 800);
+});
